@@ -2,7 +2,7 @@ require "rails/railtie"
 
 module Ghost
   class Railtie < ::Rails::Railtie # rubocop:disable Style/Documentation
-    initializer "ghost/active_record" do
+    initializer "ghost.extensions" do
       ActiveSupport.on_load(:active_record) do
         include Ghost
       end
