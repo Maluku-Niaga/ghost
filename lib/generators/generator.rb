@@ -1,7 +1,7 @@
 require "rails/generators"
 
-module Ghost
-  class GhostGenerator < ::Rails::Generators::NamedBase # rubocop:disable Style/Documentation
+module NiagaGhost
+  class NiagaGhostGenerator < ::Rails::Generators::NamedBase # rubocop:disable Style/Documentation
     source_root File.expand_path("templates", __dir__)
 
     desc "Generates a resolver in app/models/resolvers"

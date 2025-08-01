@@ -2,7 +2,7 @@
 
 require "spec_helper"
 
-RSpec.describe Ghost do
+RSpec.describe NiagaGhost do
   after(:each) do
     User.delete_all
   end

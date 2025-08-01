@@ -1,4 +1,4 @@
-module Ghost
+module NiagaGhost
   module ClassMethods
     def has_delegate(name, **opts)
       resolver = Resolver.build(name, opts)

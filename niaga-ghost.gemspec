@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/ghost/version"
+require_relative "lib/niaga-ghost/version"
 
 Gem::Specification.new do |spec|
   spec.name = "niaga-ghost"
-  spec.version = Ghost::VERSION
+  spec.version = NiagaGhost::VERSION
   spec.authors = ["azman abdullah"]
   spec.email = ["azmanabdlh12@gmail.com", "info@malukuniaga.com"]
 

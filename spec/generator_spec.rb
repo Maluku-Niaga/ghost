@@ -1,13 +1,12 @@
 # frozen_string_literal: true
 
 require "minitest/autorun"
-
 require "spec_helper"
 
-require "generators/ghost/ghost_generator"
+require "generators/generator"
 
-class GhostGeneratorTest < ::Rails::Generators::TestCase
-  tests Ghost::GhostGenerator
+class NiagaGhostGeneratorTest < ::Rails::Generators::TestCase
+  tests NiagaGhost::NiagaGhostGenerator
 
   destination File.expand_path("../tmp", __dir__)
   setup :prepare_destination

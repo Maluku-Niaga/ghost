@@ -3,7 +3,7 @@
 require "active_record"
 require "faker"
 
-require "ghost"
+require "niaga-ghost"
 
 ActiveRecord::Base.establish_connection adapter: "sqlite3", database: ":memory:"
 ActiveRecord::Schema.define do
@@ -39,7 +39,7 @@ class ContactResolver
 end
 
 class User < ActiveRecord::Base
-  include Ghost
+  include NiagaGhost
 
   has_delegate :contacts
 end

@@ -1,4 +1,4 @@
-module Ghost
+module NiagaGhost
   # The Reflection class defines ghost accessor methods on Ruby classes
   # to simulate virtual (fake) associations.
   #
