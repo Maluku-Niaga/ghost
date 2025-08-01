@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ghost (0.1.0)
+    niaga-ghost (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -273,9 +273,9 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   faker
-  ghost!
   irb
   minitest
+  niaga-ghost!
   rails
   rake (~> 13.0)
   rspec (~> 3.0)
