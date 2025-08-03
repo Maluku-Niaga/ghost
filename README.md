@@ -1,6 +1,10 @@
 # Ghost
 ![logo](./images/ghost.png)
+
+<p style="text-align: center;">
+
 ![Gem Downloads](https://img.shields.io/gem/dt/niaga-ghost)
+</p>
 
 Ghost is a minimalist Ruby DSL defining ghost associations in Rails — no ORM, just plain Ruby objects.
 
