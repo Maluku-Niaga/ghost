@@ -23,10 +23,9 @@ $ gem install niaga-ghost
 ## Usage
 
 ### Resolver
-Resolvers are simple Ruby objects that know how to fetch or construct related data.
+In Ghost, a Resolver is a lightweight Ruby object designed to fetch or construct related data between entities—such as User, Contact, or x—while ensuring that these entities remain loosely coupled.
 
-In Ghost, a resolver class is responsible for responding to the lifecycle of a relation access — meaning it can hook into how and when the relation is resolved.
-
+![diagram](./images/diagram.png)
 
 ### Example
 
@@ -40,7 +39,7 @@ end
 
 # models/resolvers/contact_resolver.rb
 class ContactResolver
-  def action(base)
+  def call(base)
     generate
   end
 
