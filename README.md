@@ -27,7 +27,13 @@ In Ghost, a Resolver is a lightweight Ruby object designed to fetch or construct
 
 ![diagram](./images/diagram.png)
 
+
 ### Example
+```ruby
+./bin/rails generate niaga_ghost Contact
+  # create  app/models/resolvers/contact_resolver.rb
+  # create  app/models/contact.rb
+```
 
 ```ruby
 # models/user.rb
