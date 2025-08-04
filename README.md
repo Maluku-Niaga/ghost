@@ -44,6 +44,9 @@ In Ghost, a Resolver is a lightweight Ruby object designed to fetch or construct
 # models/user.rb
 class User < ApplicationRecord
   has_delegate :contacts
+  # or
+  # has_delegate :contacts, resolver: "ContactResolver"
+
   # ...
 end
 
